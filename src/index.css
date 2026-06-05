@@ -1,0 +1,21 @@
+:root {
+  --tan-neutral: #DDC9A3;
+  --interface-navy: #1A3B66;
+  --interactive-white: #FFFFFF;
+  --fluidity-accent: #00C8FF;
+  
+  --serif: 'Instrument Serif', 'Times New Roman', serif;
+  --sans: 'Instrument Sans', 'Helvetica Neue', Arial, sans-serif;
+  --mono: 'Red Hat Mono', ui-monospace, 'SF Mono', Menlo, monospace;
+}
+
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+
+body {
+  background-color: var(--tan-neutral);
+  color: var(--interface-navy);
+  font-family: var(--sans);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}

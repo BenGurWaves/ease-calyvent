@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ease.calyvent.com/sitemap.xml
